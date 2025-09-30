@@ -4,7 +4,32 @@
   padding: 0;
   font-family: Arial, sans-serif;
 }
+.activity-card .participants-section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #f1f6fe;
+  border-radius: 0 0 5px 5px;
+}
 
+.participants-section h5 {
+  margin-bottom: 8px;
+  color: #3949ab;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.participants-section ul {
+  list-style-type: disc;
+  padding-left: 22px;
+  margin: 0;
+}
+
+.participants-section li {
+  margin-bottom: 4px;
+  color: #333;
+  font-size: 15px;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
